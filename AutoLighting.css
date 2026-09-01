@@ -514,7 +514,9 @@ section { position: relative; }
   border-bottom: 1px solid var(--border-subtle);
   background: var(--color-void);
 }
-
+.mobile-nav__top .brand-mark {
+  font-size: 0.5rem;
+}
 .mobile-nav__close {
   width: 44px;
   height: 44px;
