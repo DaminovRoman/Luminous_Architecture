@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Luminous Architecture — Студия архитектурного освещения</title>
+<meta name="description" content="Архитектурное освещение, создающее атмосферу, глубину и эмоции. Индивидуальные светильники, консультации по освещению и фотометрическое проектирование для частных резиденций, гостиничного бизнеса и культурных пространств.">
+<meta name="keywords" content="архитектурное освещение, индивидуальные светильники, студия дизайна освещения, освещение интерьера, освещение отелей">
+<link rel="canonical" href="https://luminous-architecture.studio/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Luminous Architecture — Свет — это архитектура, которую вы чувствуете">
+<meta property="og:description" content="Архитектурное освещение, создающее атмосферу, глубину и эмоции. Откройте для себя индивидуальные светильники и дизайн освещения для пространств, которые этого заслуживают.">
+<meta property="og:url" content="https://luminous-architecture.studio/">
+<meta property="og:image" content="assets/og-cover.jpg">
+<meta property="og:site_name" content="Luminous Architecture">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Luminous Architecture — Свет — это архитектура, которую вы чувствуете">
+<meta name="twitter:description" content="Архитектурное освещение, создающее атмосферу, глубину и эмоции.">
+<meta name="twitter:image" content="assets/og-cover.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,340;9..144,400;9..144,470;9..144,530&family=Inter:wght@400;500;600&display=swap">
+<link rel="preload" as="style" href="AutoLighting.css?v=7">
+<link rel="stylesheet" href="AutoLighting.css?v=7">
+
+<!-- Organization Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Luminous Architecture",
+  "url": "https://luminous-architecture.studio",
+  "logo": "assets/logo.svg",
+  "description": "Студия архитектурного освещения, разрабатывающая индивидуальные светильники и концепции освещения для частных резиденций, гостиничного бизнеса и культурных пространств.",
+  "sameAs": [
+    "https://www.instagram.com/luminous.architecture",
+    "https://www.pinterest.com/luminousarchitecture"
+  ]
+}
+</script>
+
+<!-- LocalBusiness Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Шоурум Luminous Architecture",
+  "image": "assets/showroom.jpg",
+  "telephone": "+1-000-000-0000",
+  "email": "studio@luminous-architecture.studio",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "14 Foundry Lane",
+    "addressLocality": "Лондон",
+    "postalCode": "EC1V 0AA",
+    "addressCountry": "GB"
+  },
+  "openingHours": "Mo-Fr 10:00-18:00"
+}
+</script>
+
+<!-- Product Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "ARC 01 — подвесной архитектурный светильник",
+  "description": "Тёплое непрямое освещение для частных резиденций и интерьеров гостиничного типа. Матовый алюминий и матовое стекло.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Luminous Architecture"
+  },
+  "material": "Матовый алюминий, матовое стекло"
+}
+</script>
+
+<!-- FAQ Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Вы разрабатываете освещение для частных резиденций?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Да. Мы работаем напрямую с владельцами домов и их архитекторами, разрабатывая концепции освещения под конкретное пространство — от отдельных комнат до полноценных резиденций."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Можно ли изготовить светильники под нестандартные размеры?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Да. Когда стандартных размеров недостаточно, наша студия разрабатывает индивидуальное освещение под конкретную архитектуру — от технического задания до установки."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- Breadcrumb Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Главная", "item": "https://luminous-architecture.studio/" }
+  ]
+}
+</script>
+</head>
+<body>
+
+<!-- ============ PRELOADER ============ -->
+<div class="preloader" id="preloader" aria-hidden="true">
+  <div class="preloader__mark">
+    <span class="preloader__glyph"></span>
+    <span class="preloader__wordmark">Luminous Architecture</span>
+  </div>
+  <div class="preloader__line">
+    <span class="preloader__line-fill"></span>
+  </div>
+</div>
+
+<a class="skip-link" href="#main">Перейти к содержимому</a>
+
+<!-- ============ NAVIGATION ============ -->
+<header class="site-header" data-nav>
+  <div class="site-header__inner">
+    <a href="#top" class="brand-mark" aria-label="Luminous Architecture — на главную">
+      <span class="brand-mark__glyph" aria-hidden="true"></span>
+      <span class="brand-mark__text">Luminous Architecture</span>
+    </a>
+
+    <nav class="primary-nav" aria-label="Основная навигация">
+      <ul>
+        <li><a href="#collection">Коллекция</a></li>
+        <li><a href="#projects">Проекты</a></li>
+        <li><a href="#services">Услуги</a></li>
+        <li><a href="#journal">Журнал</a></li>
+        <li><a href="#showroom">Шоурум</a></li>
+      </ul>
+    </nav>
+
+    <a href="#contact" class="btn btn--ghost nav-cta">Начать проект</a>
+
+    <button class="nav-toggle" aria-expanded="false" aria-controls="mobile-nav" data-nav-toggle>
+      <span class="nav-toggle__box">
+        <span class="nav-toggle__line"></span>
+        <span class="nav-toggle__line"></span>
+      </span>
+      <span class="sr-only">Меню</span>
+    </button>
+  </div>
+
+  <div class="mobile-nav" id="mobile-nav" data-mobile-nav hidden>
+    <div class="mobile-nav__top">
+      <a href="#top" class="brand-mark" aria-label="Luminous Architecture — на главную" data-mobile-nav-link>
+        <span class="brand-mark__glyph" aria-hidden="true"></span>
+        <span class="brand-mark__text">Luminous Architecture</span>
+      </a>
+      <button class="mobile-nav__close" data-nav-close aria-label="Закрыть меню">
+        <span class="mobile-nav__close-glyph" aria-hidden="true"></span>
+      </button>
+    </div>
+    <div class="mobile-nav__body">
+      <nav aria-label="Мобильная навигация">
+        <ul>
+          <li><a href="#collection" data-mobile-nav-link>Коллекция</a></li>
+          <li><a href="#projects" data-mobile-nav-link>Проекты</a></li>
+          <li><a href="#services" data-mobile-nav-link>Услуги</a></li>
+          <li><a href="#journal" data-mobile-nav-link>Журнал</a></li>
+          <li><a href="#showroom" data-mobile-nav-link>Шоурум</a></li>
+        </ul>
+      </nav>
+      <a href="#contact" class="btn btn--primary mobile-nav__cta" data-mobile-nav-link>Начать проект</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ 1. HERO ============ -->
+  <section class="hero" id="top" data-spotlight-zone>
+    <div class="hero__scene" aria-hidden="true">
+      <img
+        class="hero__image"
+        src="img/1.png"
+        alt=""
+        fetchpriority="high"
+      >
+      <div class="hero__grain"></div>
+      <div class="hero__vignette"></div>
+      <div class="hero__spot" data-spotlight></div>
+    </div>
+
+    <div class="hero__content">
+      <h1 class="hero__title">
+        <span class="reveal-line"><span class="reveal-inner">Свет — это</span></span>
+        <span class="reveal-line"><span class="reveal-inner">архитектура,</span></span>
+        <span class="reveal-line"><span class="reveal-inner">которую вы чувствуете.</span></span>
+      </h1>
+      <p class="hero__subtitle reveal-fade">Архитектурное освещение, создающее атмосферу, глубину и эмоции.</p>
+      <div class="hero__actions reveal-fade">
+        <a href="#collection" class="btn btn--primary" data-magnetic>Изучить коллекцию</a>
+        <a href="#projects" class="btn btn--text" data-magnetic style="margin-left: var(--space-4);">Смотреть проекты</a>
+      </div>
+    </div>
+
+    
+  </section>
+
+  <!-- ============ 2. INTRODUCTION ============ -->
+  <section class="intro" aria-label="О студии">
+    <div class="intro__content">
+      <p class="intro__eyebrow reveal-up">Заметка студии</p>
+      <h2 class="intro__statement reveal-up">
+        Мы не проектируем освещение.<br>
+        Мы проектируем то, как ощущается пространство.
+      </h2>
+      <p class="intro__body reveal-up">Каждый светильник рассматривается как часть архитектуры — его пропорции, тень, температура света и присутствие в комнате, построенной кем-то другим для того, кто будет в ней жить.</p>
+    </div>
+  </section>
+
+  <!-- ============ 3. LIGHT AS MATERIAL ============ -->
+  <section class="light-states" aria-label="Свет как материал">
+    <div class="light-states__header">
+      <p class="section-eyebrow reveal-up">Свет как материал</p>
+      <h2 class="section-title reveal-up">Четыре способа, которыми комната может держать свет.</h2>
+    </div>
+
+    <div class="light-states__stage">
+      <div class="light-states__image-wrap">
+        <img
+          class="light-states__image is-active"
+          data-state-image="soft"
+          src="img/2.png"
+          alt="Мягкий рассеянный свет на стене из известняка в интерьере"
+        >
+        <img
+          class="light-states__image"
+          data-state-image="focused"
+          src="img/3.png"
+          alt="Направленный архитектурный луч света в бетонной лестничной клетке"
+        >
+        <img
+          class="light-states__image"
+          data-state-image="ambient"
+          src="img/4.png"
+          alt="Рассеянный свет наполняет тёплую жилую гостиную в сумерках"
+        >
+        <img
+          class="light-states__image"
+          data-state-image="sculptural"
+          src="img/5.png"
+          alt="Скульптурный подвесной светильник как самостоятельный арт-объект"
+        >
+      </div>
+
+      <div class="light-states__panel">
+        <div class="light-states__tabs" role="tablist" aria-label="Состояния света">
+          <button class="light-states__tab is-active" role="tab" aria-selected="true" id="tab-soft" aria-controls="panel-soft" data-state-tab="soft">
+            <span class="light-states__tab-index">01</span>
+            <span class="light-states__tab-name">Мягкий</span>
+          </button>
+          <button class="light-states__tab" role="tab" aria-selected="false" id="tab-focused" aria-controls="panel-focused" data-state-tab="focused">
+            <span class="light-states__tab-index">02</span>
+            <span class="light-states__tab-name">Направленный</span>
+          </button>
+          <button class="light-states__tab" role="tab" aria-selected="false" id="tab-ambient" aria-controls="panel-ambient" data-state-tab="ambient">
+            <span class="light-states__tab-index">03</span>
+            <span class="light-states__tab-name">Рассеянный</span>
+          </button>
+          <button class="light-states__tab" role="tab" aria-selected="false" id="tab-sculptural" aria-controls="panel-sculptural" data-state-tab="sculptural">
+            <span class="light-states__tab-index">04</span>
+            <span class="light-states__tab-name">Скульптурный</span>
+          </button>
+        </div>
+
+        <div class="light-states__descriptions">
+          <p class="light-states__desc is-active" role="tabpanel" id="panel-soft" aria-labelledby="tab-soft">Рассеянное освещение, устраняющее резкие грани и позволяющее материалам самой комнаты равномерно нести свет по каждой поверхности.</p>
+          <p class="light-states__desc" role="tabpanel" id="panel-focused" aria-labelledby="tab-focused" hidden>Направленный архитектурный луч, притягивающий взгляд к одной плоскости — стене, лестнице, каменной поверхности.</p>
+          <p class="light-states__desc" role="tabpanel" id="panel-ambient" aria-labelledby="tab-ambient" hidden>Свет, создающий атмосферу, а не просто видимость, откалиброванный под то, каким пространство должно ощущаться после наступления темноты.</p>
+          <p class="light-states__desc" role="tabpanel" id="panel-sculptural" aria-labelledby="tab-sculptural" hidden>Светильник, созданный не только для освещения, но и для того, чтобы быть увиденным — объект, вокруг которого выстраивается комната.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 4. COLLECTION ============ -->
+  <section class="collection" id="collection" aria-label="Коллекция">
+    <div class="collection__header">
+      <p class="section-eyebrow reveal-up">Коллекция</p>
+      <h2 class="section-title reveal-up">Светильники, задуманные как архитектура.</h2>
+    </div>
+
+    <div class="collection__list">
+
+      <article class="collection__item reveal-up">
+        <div class="collection__media">
+          <img src="img/6.png" alt="Подвесной архитектурный светильник ARC 01 над обеденным столом" loading="lazy">
+        </div>
+        <div class="collection__info">
+          <h3 class="collection__name">ARC 01</h3>
+          <p class="collection__type">Подвесной архитектурный светильник</p>
+          <p class="collection__scenario">Тёплое непрямое освещение</p>
+          <p class="collection__desc">Единая форма из формованного алюминия, рассеивающая свет вверх, к плоскости потолка, откуда он возвращается в комнату уже смягчённым.</p>
+          <button type="button" class="link-discover" data-magnetic data-open-modal="detail-modal" data-detail-image="img/6.png" data-detail-eyebrow="Коллекция" data-detail-title="ARC 01" data-detail-meta="Подвесной архитектурный светильник — Тёплое непрямое освещение" data-detail-body="Единая форма из формованного алюминия, рассеивающая свет вверх, к плоскости потолка, откуда он возвращается в комнату уже смягчённым.">Подробнее<span aria-hidden="true"> →</span></button>
+        </div>
+      </article>
+
+      <article class="collection__item reveal-up">
+        <div class="collection__media">
+          <img src="img/7.png" alt="Встраиваемый настенный светильник LINEA 02 вдоль каменного коридора" loading="lazy">
+        </div>
+        <div class="collection__info">
+          <h3 class="collection__name">LINEA 02</h3>
+          <p class="collection__type">Встраиваемый настенный светильник</p>
+          <p class="collection__scenario">Скользящий свет по фактурному камню</p>
+          <p class="collection__desc">Непрерывная линия света, встроенная заподлицо с архитектурой, подчёркивающая текстуру натурального камня, а не сам светильник.</p>
+          <button type="button" class="link-discover" data-magnetic data-open-modal="detail-modal" data-detail-image="img/7.png" data-detail-eyebrow="Коллекция" data-detail-title="LINEA 02" data-detail-meta="Встраиваемый настенный светильник — Скользящий свет по фактурному камню" data-detail-body="Непрерывная линия света, встроенная заподлицо с архитектурой, подчёркивающая текстуру натурального камня, а не сам светильник.">Подробнее<span aria-hidden="true"> →</span></button>
+        </div>
+      </article>
+
+      <article class="collection__item reveal-up">
+        <div class="collection__media">
+          <img src="img/8.png" alt="Скульптурный напольный светильник NOVA 03 в минималистичной гостиной" loading="lazy">
+        </div>
+        <div class="collection__info">
+          <h3 class="collection__name">NOVA 03</h3>
+          <p class="collection__type">Скульптурный напольный светильник</p>
+          <p class="collection__scenario">Рассеянное свечение с мягкой тенью</p>
+          <p class="collection__desc">Матовое стекло на основании из сатинированной стали, сохраняющее собственное присутствие днём и растворяющееся в атмосфере с наступлением темноты.</p>
+          <button type="button" class="link-discover" data-magnetic data-open-modal="detail-modal" data-detail-image="img/8.png" data-detail-eyebrow="Коллекция" data-detail-title="NOVA 03" data-detail-meta="Скульптурный напольный светильник — Рассеянное свечение с мягкой тенью" data-detail-body="Матовое стекло на основании из сатинированной стали, сохраняющее собственное присутствие днём и растворяющееся в атмосфере с наступлением темноты.">Подробнее<span aria-hidden="true"> →</span></button>
+        </div>
+      </article>
+
+      <article class="collection__item reveal-up">
+        <div class="collection__media">
+          <img src="img/9.png" alt="Архитектурный кластер подвесных светильников FOLD 04 над лестничным пролётом" loading="lazy">
+        </div>
+        <div class="collection__info">
+          <h3 class="collection__name">FOLD 04</h3>
+          <p class="collection__type">Кластер подвесных светильников</p>
+          <p class="collection__scenario">Многослойные направленные лучи</p>
+          <p class="collection__desc">Индивидуально регулируемые модули из матового алюминия, воспринимающиеся снизу как единый архитектурный жест.</p>
+          <button type="button" class="link-discover" data-magnetic data-open-modal="detail-modal" data-detail-image="img/9.png" data-detail-eyebrow="Коллекция" data-detail-title="FOLD 04" data-detail-meta="Кластер подвесных светильников — Многослойные направленные лучи" data-detail-body="Индивидуально регулируемые модули из матового алюминия, воспринимающиеся снизу как единый архитектурный жест.">Подробнее<span aria-hidden="true"> →</span></button>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============ 5. LIGHTING EXPERIENCE (Product) ============ -->
+  <section class="experience" aria-label="Опыт освещения — ARC 01">
+    <div class="experience__header">
+      <p class="section-eyebrow reveal-up">Опыт освещения</p>
+      <h2 class="section-title reveal-up">ARC 01</h2>
+    </div>
+
+    <div class="experience__toggle" role="tablist" aria-label="Вид">
+      <button class="experience__toggle-btn is-active" role="tab" aria-selected="true" data-view-tab="object">Объект</button>
+      <button class="experience__toggle-btn" role="tab" aria-selected="false" data-view-tab="space">Пространство</button>
+    </div>
+
+    <div class="experience__stage">
+      <div class="experience__visual">
+        <img
+          class="experience__image is-active"
+          data-view-image="object"
+          src="img/10.png"
+          alt="Светильник ARC 01, показанный как самостоятельный объект на нейтральном фоне"
+        >
+        <img
+          class="experience__image"
+          data-view-image="space"
+          src="img/11.png"
+          alt="ARC 01 установлен над обеденным столом, освещая окружающую столовую"
+        >
+      </div>
+
+      <div class="experience__specs">
+        <dl class="spec-list">
+          <div class="spec-list__row">
+            <dt>Размеры</dt>
+            <dd>Ø 420 мм × В 180 мм</dd>
+          </div>
+          <div class="spec-list__row">
+            <dt>Материалы</dt>
+            <dd>Формованный алюминий, диффузор из матового стекла</dd>
+          </div>
+          <div class="spec-list__row">
+            <dt>Цветовая температура</dt>
+            <dd>2700K – 3000K</dd>
+          </div>
+          <div class="spec-list__row">
+            <dt>Угол светового пучка</dt>
+            <dd>120° непрямой</dd>
+          </div>
+          <div class="spec-list__row">
+            <dt>Индекс цветопередачи (CRI)</dt>
+            <dd>&gt; 97</dd>
+          </div>
+          <div class="spec-list__row">
+            <dt>Мощность</dt>
+            <dd>24 Вт LED, с диммированием</dd>
+          </div>
+          <div class="spec-list__row">
+            <dt>Установка</dt>
+            <dd>Потолочное крепление, регулируемая высота подвеса</dd>
+          </div>
+          <div class="spec-list__row">
+            <dt>Доступные отделки</dt>
+            <dd>Матовый алюминий, сатинированный графит, тёплая латунь</dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 6. PROJECTS ============ -->
+  <section class="projects" id="projects" aria-label="Пространства в свете">
+    <div class="projects__header">
+      <p class="section-eyebrow reveal-up">Пространства в свете</p>
+      <h2 class="section-title reveal-up">Избранные проекты.</h2>
+    </div>
+
+    <div class="projects__grid">
+
+      <button type="button" class="project-card reveal-up" data-magnetic data-open-modal="detail-modal" data-detail-image="img/12.png" data-detail-eyebrow="Проект" data-detail-title="Частная резиденция" data-detail-meta="Лиссабон, Португалия — 2024" data-detail-body="Многослойное рассеянное и направленное освещение на трёх этажах из бетона и дерева.">
+        <img class="project-card__image" src="img/12.png" alt="Проект освещения частной резиденции в Лиссабоне" loading="lazy">
+        <div class="project-card__overlay">
+          <h3 class="project-card__name">Частная резиденция</h3>
+          <p class="project-card__meta">Лиссабон, Португалия — 2024</p>
+          <p class="project-card__concept">Многослойное рассеянное и направленное освещение на трёх этажах из бетона и дерева.</p>
+        </div>
+      </button>
+
+      <button type="button" class="project-card reveal-up" data-magnetic data-open-modal="detail-modal" data-detail-image="img/13.png" data-detail-eyebrow="Проект" data-detail-title="Бутик-отель" data-detail-meta="Киото, Япония — 2023" data-detail-body="Тёплое рассеянное освещение с низким уровнем бликов, выстроенное вокруг одного центрального материала — бумаги washi.">
+        <img class="project-card__image" src="img/13.png" alt="Проект освещения лобби бутик-отеля в Киото" loading="lazy">
+        <div class="project-card__overlay">
+          <h3 class="project-card__name">Бутик-отель</h3>
+          <p class="project-card__meta">Киото, Япония — 2023</p>
+          <p class="project-card__concept">Тёплое рассеянное освещение с низким уровнем бликов, выстроенное вокруг одного центрального материала — бумаги washi.</p>
+        </div>
+      </button>
+
+      <button type="button" class="project-card reveal-up" data-magnetic data-open-modal="detail-modal" data-detail-image="img/14.png" data-detail-eyebrow="Проект" data-detail-title="Ресторан высокой кухни" data-detail-meta="Копенгаген, Дания — 2023" data-detail-body="Направленный свет на уровне стола с почти тёмным периметром, откалиброванный для каждого стола отдельно.">
+        <img class="project-card__image" src="img/14.png" alt="Проект освещения ресторана высокой кухни в Копенгагене" loading="lazy">
+        <div class="project-card__overlay">
+          <h3 class="project-card__name">Ресторан высокой кухни</h3>
+          <p class="project-card__meta">Копенгаген, Дания — 2023</p>
+          <p class="project-card__concept">Направленный свет на уровне стола с почти тёмным периметром, откалиброванный для каждого стола отдельно.</p>
+        </div>
+      </button>
+
+      <button type="button" class="project-card reveal-up" data-magnetic data-open-modal="detail-modal" data-detail-image="img/15.png" data-detail-eyebrow="Проект" data-detail-title="Галерея" data-detail-meta="Базель, Швейцария — 2022" data-detail-body="Фотометрический расчёт музейного уровня для защиты экспонатов при формировании пространства вокруг них.">
+        <img class="project-card__image" src="img/15.png" alt="Проект освещения галереи в Базеле" loading="lazy">
+        <div class="project-card__overlay">
+          <h3 class="project-card__name">Галерея</h3>
+          <p class="project-card__meta">Базель, Швейцария — 2022</p>
+          <p class="project-card__concept">Фотометрический расчёт музейного уровня для защиты экспонатов при формировании пространства вокруг них.</p>
+        </div>
+      </button>
+
+      <button type="button" class="project-card reveal-up" data-magnetic data-open-modal="detail-modal" data-detail-image="img/16.png" data-detail-eyebrow="Проект" data-detail-title="Пентхаус" data-detail-meta="Нью-Йорк, США — 2024" data-detail-body="Индивидуальные скульптурные светильники, разработанные для 6-метрового потолка и остекления в полный рост.">
+        <img class="project-card__image" src="img/16.png" alt="Проект освещения пентхауса в Нью-Йорке" loading="lazy">
+        <div class="project-card__overlay">
+          <h3 class="project-card__name">Пентхаус</h3>
+          <p class="project-card__meta">Нью-Йорк, США — 2024</p>
+          <p class="project-card__concept">Индивидуальные скульптурные светильники, разработанные для 6-метрового потолка и остекления в полный рост.</p>
+        </div>
+      </button>
+
+      <button type="button" class="project-card reveal-up" data-magnetic data-open-modal="detail-modal" data-detail-image="img/17.png" data-detail-eyebrow="Проект" data-detail-title="Офис" data-detail-meta="Стокгольм, Швеция — 2022" data-detail-body="Освещение, реагирующее на дневной свет и откалиброванное под циркадный ритм, в открытом пространстве студии.">
+        <img class="project-card__image" src="img/17.png" alt="Проект офисного освещения в Стокгольме" loading="lazy">
+        <div class="project-card__overlay">
+          <h3 class="project-card__name">Офис</h3>
+          <p class="project-card__meta">Стокгольм, Швеция — 2022</p>
+          <p class="project-card__concept">Освещение, реагирующее на дневной свет и откалиброванное под циркадный ритм, в открытом пространстве студии.</p>
+        </div>
+      </button>
+
+    </div>
+  </section>
+
+  <!-- ============ 7. BEFORE / AFTER ============ -->
+  <section class="compare" aria-label="Сравнение освещения до и после">
+    <div class="compare__header">
+      <p class="section-eyebrow reveal-up">Атмосфера с наступлением темноты</p>
+      <h2 class="section-title reveal-up">Как один сценарий света меняет ощущение всего пространства.</h2>
+    </div>
+
+    <div class="compare__stage">
+      <div class="compare__frame">
+        <img class="compare__image compare__image--after" src="img/18.png" alt="Архитектурный интерьер, полностью освещённый тёплым спроектированным светом">
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 8. LIGHTING PHILOSOPHY ============ -->
+  <section class="philosophy" aria-label="Философия освещения">
+    <div class="philosophy__statement">
+      <h2 class="philosophy__title reveal-up">Свет никогда не должен соперничать&nbsp;с архитектурой.</h2>
+    </div>
+
+    <div class="philosophy__principles">
+      <div class="philosophy__principle reveal-up">
+        <span class="philosophy__mark" aria-hidden="true">Форма</span>
+        <p class="philosophy__text">Светильник задуман как часть пространства, в котором он находится, а не как отдельный объект, помещённый внутрь него.</p>
+      </div>
+      <div class="philosophy__principle reveal-up">
+        <span class="philosophy__mark" aria-hidden="true">Тень</span>
+        <p class="philosophy__text">Тень — такой же материал, как и свет: оба рассчитываются вместе, а не добавляются позже как второстепенная деталь.</p>
+      </div>
+      <div class="philosophy__principle reveal-up">
+        <span class="philosophy__mark" aria-hidden="true">Атмосфера</span>
+        <p class="philosophy__text">Правильный свет определяет эмоциональное восприятие комнаты задолго до того, как кто-то заметит сам светильник.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 9. MATERIALS ============ -->
+  <section class="materials" aria-label="Материалы">
+    <div class="materials__header">
+      <p class="section-eyebrow reveal-up">Материалы</p>
+      <h2 class="section-title reveal-up">Сквозь что проходит свет.</h2>
+    </div>
+
+    <div class="materials__row" data-materials-row>
+      <div class="materials__item" data-material="aluminium">
+        <img src="img/19.png" alt="Макросъёмка поверхности матового алюминия" loading="lazy">
+        <span class="materials__label">Алюминий</span>
+      </div>
+      <div class="materials__item" data-material="brass">
+        <img src="img/20.png" alt="Макросъёмка поверхности тёплой латуни" loading="lazy">
+        <span class="materials__label">Латунь</span>
+      </div>
+      <div class="materials__item" data-material="glass">
+        <img src="img/21.png" alt="Макросъёмка поверхности матового стекла" loading="lazy">
+        <span class="materials__label">Стекло</span>
+      </div>
+      <div class="materials__item" data-material="stone">
+        <img src="img/22.png" alt="Макросъёмка натурального травертина" loading="lazy">
+        <span class="materials__label">Камень</span>
+      </div>
+      <div class="materials__item" data-material="steel">
+        <img src="img/23.png" alt="Макросъёмка поверхности сатинированной стали" loading="lazy">
+        <span class="materials__label">Сталь</span>
+      </div>
+      <div class="materials__item" data-material="custom">
+        <img src="img/24.png" alt="Макросъёмка образца индивидуальной отделки" loading="lazy">
+        <span class="materials__label">Индивидуальные отделки</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 10. CUSTOM LIGHTING ============ -->
+  <section class="custom-process" aria-label="Процесс создания индивидуального освещения">
+    <div class="custom-process__header">
+      <p class="section-eyebrow reveal-up">Создано для вашего пространства</p>
+      <h2 class="section-title reveal-up">Когда стандартных размеров недостаточно, мы разрабатываем освещение специально под архитектуру.</h2>
+    </div>
+
+    <ol class="custom-process__steps" data-progress-track>
+      <li class="custom-process__step reveal-up">
+        <span class="custom-process__index">01</span>
+        <span class="custom-process__name">Техническое задание</span>
+      </li>
+      <li class="custom-process__step reveal-up">
+        <span class="custom-process__index">02</span>
+        <span class="custom-process__name">Архитектура</span>
+      </li>
+      <li class="custom-process__step reveal-up">
+        <span class="custom-process__index">03</span>
+        <span class="custom-process__name">Изучение света</span>
+      </li>
+      <li class="custom-process__step reveal-up">
+        <span class="custom-process__index">04</span>
+        <span class="custom-process__name">Прототип</span>
+      </li>
+      <li class="custom-process__step reveal-up">
+        <span class="custom-process__index">05</span>
+        <span class="custom-process__name">Установка</span>
+      </li>
+      <li class="custom-process__step reveal-up">
+        <span class="custom-process__index">06</span>
+        <span class="custom-process__name">Финальная атмосфера</span>
+      </li>
+    </ol>
+    <div class="custom-process__line" aria-hidden="true">
+      <div class="custom-process__line-fill" data-progress-fill></div>
+    </div>
+  </section>
+
+  <!-- ============ 11. SERVICES ============ -->
+  <section class="services" id="services" aria-label="Услуги">
+    <div class="services__header">
+      <p class="section-eyebrow reveal-up">Услуги</p>
+      <h2 class="section-title reveal-up">Как мы работаем с пространством.</h2>
+    </div>
+
+    <ul class="services__list">
+      <li class="services__item">
+        <button class="services__trigger" aria-expanded="false" data-service-trigger>
+          <span class="services__name">Дизайн освещения</span>
+          <span class="services__icon" aria-hidden="true"></span>
+        </button>
+        <div class="services__panel" data-service-panel>
+          <p>Полноценные концепции освещения, разработанные на основе архитектурных чертежей — расположение, температура, интенсивность и выбор светильников рассматриваются как единая система.</p>
+        </div>
+      </li>
+      <li class="services__item">
+        <button class="services__trigger" aria-expanded="false" data-service-trigger>
+          <span class="services__name">Архитектурный консалтинг</span>
+          <span class="services__icon" aria-hidden="true"></span>
+        </button>
+        <div class="services__panel" data-service-panel>
+          <p>Сотрудничество с архитекторами на раннем этапе, чтобы интегрировать освещение в конструктивные и материальные решения, а не добавлять его впоследствии.</p>
+        </div>
+      </li>
+      <li class="services__item">
+        <button class="services__trigger" aria-expanded="false" data-service-trigger>
+          <span class="services__name">Индивидуальная разработка</span>
+          <span class="services__icon" aria-hidden="true"></span>
+        </button>
+        <div class="services__panel" data-service-panel>
+          <p>Светильники на заказ под нестандартные размеры, отделку или условия установки — от прототипа до финального производства.</p>
+        </div>
+      </li>
+      <li class="services__item">
+        <button class="services__trigger" aria-expanded="false" data-service-trigger>
+          <span class="services__name">Светотехнический расчёт</span>
+          <span class="services__icon" aria-hidden="true"></span>
+        </button>
+        <div class="services__panel" data-service-panel>
+          <p>Фотометрическое моделирование для проверки интенсивности, бликов и равномерности освещения до установки первого светильника на объекте.</p>
+        </div>
+      </li>
+      <li class="services__item">
+        <button class="services__trigger" aria-expanded="false" data-service-trigger>
+          <span class="services__name">Сопровождение проекта</span>
+          <span class="services__icon" aria-hidden="true"></span>
+        </button>
+        <div class="services__panel" data-service-panel>
+          <p>Постоянная координация с подрядчиками и электриками на протяжении строительства, чтобы первоначальный замысел освещения сохранился в готовом объекте.</p>
+        </div>
+      </li>
+      <li class="services__item">
+        <button class="services__trigger" aria-expanded="false" data-service-trigger>
+          <span class="services__name">Установка</span>
+          <span class="services__icon" aria-hidden="true"></span>
+        </button>
+        <div class="services__panel" data-service-panel>
+          <p>Пусконаладочные работы и финальная калибровка на объекте с настройкой каждого светильника в готовом помещении.</p>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- ============ 12. SHOWROOM ============ -->
+  <section class="showroom" id="showroom" aria-label="Шоурум">
+    <div class="showroom__scene">
+      <img src="img/25.png" alt="Шоурум Luminous Architecture с инсталляциями освещения из бетона, стекла и камня">
+    </div>
+    <div class="showroom__content">
+      <h2 class="showroom__title reveal-up">Приходите увидеть свет в реальном пространстве.</h2>
+      <a href="#contact" class="btn btn--primary" data-magnetic>Посетить шоурум</a>
+    </div>
+  </section>
+
+  <!-- ============ 13. TRUST ============ -->
+  <section class="trust" aria-label="Достижения студии">
+    <div class="trust__grid">
+      <div class="trust__stat reveal-up">
+        <span class="trust__number" data-count-to="120" data-suffix="+">0</span>
+        <span class="trust__label">Реализованных пространств</span>
+      </div>
+      <div class="trust__stat reveal-up">
+        <span class="trust__number" data-count-to="14">0</span>
+        <span class="trust__label">Лет опыта в освещении</span>
+      </div>
+      <div class="trust__stat reveal-up">
+        <span class="trust__number" data-count-to="38" data-suffix="+">0</span>
+        <span class="trust__label">Архитектурных партнёров</span>
+      </div>
+      <div class="trust__stat reveal-up">
+        <span class="trust__number-text">Индивидуальная</span>
+        <span class="trust__label">Разработка освещения</span>
+      </div>
+      <div class="trust__stat reveal-up">
+        <span class="trust__number-text">Фотометрические</span>
+        <span class="trust__label">Профессиональные расчёты</span>
+      </div>
+      <div class="trust__stat reveal-up">
+        <span class="trust__number-text">Проектные</span>
+        <span class="trust__label">Консультации по освещению</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 14. TESTIMONIALS ============ -->
+  <section class="testimonial" aria-label="Отзыв клиента">
+    <div class="testimonial__inner">
+      <blockquote class="testimonial__quote reveal-up">
+        <p>Освещение полностью изменило то, как мы воспринимали пространство.</p>
+      </blockquote>
+      <div class="testimonial__meta reveal-up">
+        <img class="testimonial__image" src="img/26.png" alt="Проект частной резиденции, упомянутый в отзыве" loading="lazy">
+        <div class="testimonial__attribution">
+          <p class="testimonial__name">Елена Марш, дизайнер интерьеров</p>
+          <p class="testimonial__project">Частная резиденция — Лиссабон, Португалия</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 15. JOURNAL ============ -->
+  <section class="journal" id="journal" aria-label="Журнал">
+    <div class="journal__header">
+      <p class="section-eyebrow reveal-up">Заметки о свете</p>
+      <h2 class="section-title reveal-up">Публикации студии.</h2>
+    </div>
+
+    <div class="journal__grid">
+      <button type="button" class="journal__item reveal-up" data-open-modal="detail-modal" data-detail-eyebrow="Восприятие" data-detail-title="Как свет меняет восприятие пространства" data-detail-meta="Заметки студии" data-detail-body="Свет определяет, как воспринимаются масштаб, материал и настроение пространства ещё до того, как это осознаёт зритель — от направления теней до температуры цвета.">
+        <span class="journal__category">Восприятие</span>
+        <h3 class="journal__title">Как свет меняет восприятие пространства</h3>
+      </button>
+      <button type="button" class="journal__item reveal-up" data-open-modal="detail-modal" data-detail-eyebrow="Основы" data-detail-title="Тёплое и холодное архитектурное освещение" data-detail-meta="Заметки студии" data-detail-body="Выбор цветовой температуры — это не эстетика, а инструмент: тёплый свет сближает и успокаивает, холодный — фокусирует и активирует.">
+        <span class="journal__category">Основы</span>
+        <h3 class="journal__title">Тёплое и холодное архитектурное освещение</h3>
+      </button>
+      <button type="button" class="journal__item reveal-up" data-open-modal="detail-modal" data-detail-eyebrow="Гостиничный бизнес" data-detail-title="Создание атмосферы отеля" data-detail-meta="Заметки студии" data-detail-body="От лобби до номеров — сценарии освещения задают ритм гостевого опыта, направляя внимание и создавая ощущение заботы.">
+        <span class="journal__category">Гостиничный бизнес</span>
+        <h3 class="journal__title">Создание атмосферы отеля</h3>
+      </button>
+      <button type="button" class="journal__item reveal-up" data-open-modal="detail-modal" data-detail-eyebrow="Жилые пространства" data-detail-title="Освещение частных резиденций" data-detail-meta="Заметки студии" data-detail-body="Домашнее освещение живёт по другим правилам, чем коммерческое — здесь важнее сценарии дня, а не эффектность отдельного кадра.">
+        <span class="journal__category">Жилые пространства</span>
+        <h3 class="journal__title">Освещение частных резиденций</h3>
+      </button>
+      <button type="button" class="journal__item reveal-up" data-open-modal="detail-modal" data-detail-eyebrow="Основы" data-detail-title="Почему важны тени" data-detail-meta="Заметки студии" data-detail-body="Хорошее освещение — это не отсутствие тени, а её точная постановка: тени придают объектам форму и глубину не хуже самого света.">
+        <span class="journal__category">Основы</span>
+        <h3 class="journal__title">Почему важны тени</h3>
+      </button>
+      <button type="button" class="journal__item reveal-up" data-open-modal="detail-modal" data-detail-eyebrow="Технические аспекты" data-detail-title="CRI и восприятие материалов" data-detail-meta="Заметки студии" data-detail-body="Индекс цветопередачи напрямую влияет на то, как воспринимаются текстуры и оттенки материалов — от камня до текстиля.">
+        <span class="journal__category">Технические аспекты</span>
+        <h3 class="journal__title">CRI и восприятие материалов</h3>
+      </button>
+    </div>
+  </section>
+
+  <!-- ============ 16. FINAL CTA ============ -->
+  <section class="final-cta" id="contact" aria-label="Начать проект">
+    <div class="final-cta__scene" aria-hidden="true">
+      <img src="img/27.png" alt="">
+      <div class="final-cta__spot" data-spotlight></div>
+    </div>
+    <div class="final-cta__content">
+      <h2 class="final-cta__title reveal-up">Пусть пространство говорит само за себя.</h2>
+      <p class="final-cta__subtitle reveal-up">Расскажите нам о пространстве, которое вы создаёте.</p>
+      <div class="final-cta__actions reveal-up">
+        <a href="mailto:studio@luminous-architecture.studio" class="btn btn--primary-light" data-magnetic>Начать проект</a>
+        <button type="button" class="btn btn--text-light" data-magnetic data-open-modal="contact-modal">Поговорить с дизайнером освещения</button>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="site-footer__top">
+    <div class="site-footer__brand">
+      <span class="brand-mark__glyph" aria-hidden="true"></span>
+      <p class="site-footer__tagline">Освещение для архитектуры, интерьеров и атмосферы.</p>
+    </div>
+
+    <nav class="site-footer__nav" aria-label="Навигация в футере">
+      <div class="site-footer__col">
+        <h3>Студия</h3>
+        <ul>
+          <li><a href="#top">Бренд</a></li>
+          <li><a href="#collection">Коллекция</a></li>
+          <li><a href="#projects">Проекты</a></li>
+          <li><a href="#services">Услуги</a></li>
+        </ul>
+      </div>
+      <div class="site-footer__col">
+        <h3>Разделы</h3>
+        <ul>
+          <li><a href="#journal">Журнал</a></li>
+          <li><a href="#showroom">Шоурум</a></li>
+          <li><a href="#contact">Контакты</a></li>
+        </ul>
+      </div>
+      <div class="site-footer__col">
+        <h3>Связаться</h3>
+        <ul>
+          <li><a href="https://www.instagram.com/luminous.architecture" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://www.pinterest.com/luminousarchitecture" target="_blank" rel="noopener">Pinterest</a></li>
+          <li><a href="mailto:studio@luminous-architecture.studio">studio@luminous-architecture.studio</a></li>
+          <li><a href="tel:+10000000000">+1 (000) 000-0000</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <div class="site-footer__bottom">
+    <p>© 2026 Luminous Architecture Studio.</p>
+  </div>
+</footer>
+
+<!-- ============ DETAIL MODAL ============ -->
+<div class="detail-modal" id="detail-modal" data-modal hidden aria-hidden="true">
+  <div class="detail-modal__backdrop" data-modal-close></div>
+  <button class="detail-modal__close" type="button" data-modal-close aria-label="Закрыть">
+    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M1 1L17 17M17 1L1 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+  </button>
+  <div class="detail-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="detail-modal-title">
+    <img class="detail-modal__image" data-modal-image src="" alt="" hidden>
+    <p class="detail-modal__eyebrow" data-modal-eyebrow></p>
+    <h2 class="detail-modal__title" id="detail-modal-title" data-modal-title></h2>
+    <p class="detail-modal__meta" data-modal-meta></p>
+    <p class="detail-modal__body" data-modal-body></p>
+    <div class="detail-modal__actions">
+      <a href="mailto:studio@luminous-architecture.studio" class="btn btn--primary">Написать студии</a>
+      <a href="tel:+10000000000" class="btn btn--ghost">Позвонить</a>
+    </div>
+  </div>
+</div>
+
+<!-- ============ CONTACT MODAL ============ -->
+<div class="detail-modal" id="contact-modal" data-modal hidden aria-hidden="true">
+  <div class="detail-modal__backdrop" data-modal-close></div>
+  <button class="detail-modal__close" type="button" data-modal-close aria-label="Закрыть">
+    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M1 1L17 17M17 1L1 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+  </button>
+  <div class="detail-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="contact-modal-title">
+    <p class="detail-modal__eyebrow">Свяжитесь со студией</p>
+    <h2 class="detail-modal__title" id="contact-modal-title">Поговорить с дизайнером освещения.</h2>
+    <p class="detail-modal__body">Опишите ваше пространство, и наш дизайнер освещения свяжется с вами, чтобы обсудить концепцию и следующие шаги.</p>
+    <div class="detail-modal__actions">
+      <a href="mailto:studio@luminous-architecture.studio" class="btn btn--primary">Написать на почту</a>
+      <a href="tel:+10000000000" class="btn btn--ghost">Позвонить</a>
+    </div>
+  </div>
+</div>
+
+
+<script src="AutoLighting.js" defer></script>
+</body>
+</html>
