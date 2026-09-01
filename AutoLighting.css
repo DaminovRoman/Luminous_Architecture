@@ -515,7 +515,7 @@ section { position: relative; }
   background: var(--color-void);
 }
 .mobile-nav__top .brand-mark {
-  font-size: 1.25 rem;
+  font-size: 1 rem;
 }
 .mobile-nav__close {
   width: 44px;
